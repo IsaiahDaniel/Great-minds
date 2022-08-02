@@ -15,13 +15,17 @@ const About = () => {
           We have made quality our habit. It’s not something that we just strive for – we live by this principle every day.
         </p>
 
-        <div className='flex-row flex-column-sm mt-5'>
+        <div className="grid-3 flex-column-sm text-center display-none-lg">
+            <img src={cardImgThree} height="500" className="mr-3 mb-3" /> 
+        </div>
+
+        <div className='flex-row flex-column-sm mt-5 mr-5'>
 
           <div className="mt-3 mr-5" style={{ margin: "auto" }}>
-            <img src={cardImgThree} style={{ width: "390px", height: "570px", objectFit: "cover", margin: "auto" }} />
+            <img src={cardImgThree} style={{ width: "460px", height: "570px", objectFit: "cover", margin: "auto" }} class="image-sm" />
           </div>
 
-          <div>
+          <div class="ml-5">
             <h1 className="md-heading text-left">
               Mrs Olamibo D. Balogun
             </h1>
@@ -63,7 +67,7 @@ const About = () => {
           </p>
 
           <div>
-            <h3>Mission:</h3> <br />
+            <h3>Mission:</h3> <br />  
             As a child advocate centre, our aim is to foster love for reading by providing developmental books for children and exposing the benefits of reading to as many people as possible through result based strategies for quality and sound learning.
             We desire to create a new operating system and instill values of Character, Responsibility, Excellence, Empathy and Discipline [CREED].
           </div>

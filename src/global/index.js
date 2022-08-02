@@ -49,6 +49,10 @@ const GlobalStyles = createGlobalStyle`
         height: 100%;
     } 
 
+    .ml-5 {
+        margin-left: 2rem;
+    }
+
     .flex-column {
         display: flex;
         flex-direction: column;
@@ -159,6 +163,10 @@ const GlobalStyles = createGlobalStyle`
         margin-bottom: 5rem;
     }
 
+    .display-none-lg {
+        display: none;
+    }
+
     .p-2 {
         /* max-width: 50%;
         flex-basis: 50%; */
@@ -197,6 +205,14 @@ const GlobalStyles = createGlobalStyle`
     }
 
     @media(max-width: 900px){
+
+        .image-sm {
+            display: none;
+        }
+
+        .display-none-lg {
+            display: block;
+        }
 
         .text-lg-sm {
             font-size: 2.5rem;
