@@ -36,14 +36,14 @@ const Home = () => {
             <p className="text-center">From Experts to novice, there's something for everyone in our Club.</p>
 
             <div className="grid-3 flex-column-sm text-center">
-                <img src={cardImgOne} height="500" className="mr-3 mb-3" />
-                <img src={cardImgThree} height="500" className="mr-3 mb-3" />
-                <img src={cardImgTwo} height="500" className="mr-3 mb-3" /> 
+                <img src={cardImgOne} height="500" className="mr-3 mb-3" data-aos="fade-up" />
+                <img src={cardImgThree} height="500" className="mr-3 mb-3" data-aos="fade-up" />
+                <img src={cardImgTwo} height="500" className="mr-3 mb-3" data-aos="fade-up" /> 
             </div>
 
         </div>
 
-        <div className='container flex-row flex-column-sm mt-5'>
+        <div className='container flex-row flex-column-sm mt-5' data-aos="flip-left">
             <div className="mr-2">   
                 <h3>OUR STORY</h3>
                 <h1 className="md-heading">
@@ -65,20 +65,20 @@ const Home = () => {
 
         <div className='container mt-5'>
             <div className="mr-2">   
-                <h1 className="md-heading text-center mb-4">
+                <h1 className="md-heading text-center mb-4" data-aos="flip-right">
                     An inside look to our inspirational gallery...
                 </h1>
-                <div className="grid-3">
-                    <img src={cardImgOne} width="200" height="400" className="mr-3" />
-                    <img src={cardImgTwo} width="200" height="400" className="mr-3" />
-                    <img src={cardImgOne} width="200" height="400" className="mr-3" />
-                    <img src={cardImgOne} width="200" height="400" className="mr-3" />
+                <div className="grid-3" data-aos="fade-right">
+                    <img src={cardImgOne} width="200" height="400" className="mr-3"  />
+                    <img src={cardImgTwo} width="200" height="400" className="mr-3"  />
+                    <img src={cardImgOne} width="200" height="400" className="mr-3"  />
+                    <img src={cardImgOne} width="200" height="400" className="mr-3"  />
                     <img src={cardImgOne} width="200" height="400" className="mr-3" />
                 </div>
             </div>
 
             <div className="mt-5 mb-5 text-center">
-                <Button text="Discover" />
+                <Button text="Discover" data-aos="fade-up-left" />
             </div>
 
         </div>

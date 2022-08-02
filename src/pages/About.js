@@ -29,14 +29,14 @@ const About = () => {
             <h1 className="md-heading text-left">
               Mrs Olamibo D. Balogun
             </h1>
-            <p className="lead text-justify">
+            <p className="lead text-justify"  data-aos="flip-right">
               Olamibo  Balogun is an Educationist, Trainer, Counsellor, Consultant and the founder of Great Minds Literacy Readers.
               .  She holds post graduate diploma in English education (PGDE), B.ED.
               She is a Chartered Teacher with her qualification certificate from the Teachers Registration Council (TRC).
 
               Also founder of Eminent minds Empowerment Initiative.
             </p>
-            <p className="lead text-justify">
+            <p className="lead text-justify" data-aos="flip-left">
               Author of book on sexual abuse
               She is a seasoned administrar, a leader and goal oriented team player with motivational and interpersonal skills that is geared towards achieving success for any organisation.
 
@@ -54,7 +54,7 @@ const About = () => {
 
         </div>
 
-        <div className="text-justify mb-5">
+        <div className="text-justify mb-5"  data-aos="flip-up">
           <p>
             Great Minds Literacy Readers was established on the 11th of November , 2017. Owned by Mrs Olamibo D. Balogun
 
