@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
         <div className="flex-row flex-column-sm">
-            <img src={ContactImg} alt="" class="w-50 w-100-sm h-100" />
+            <img src={ContactImg} alt="" className="w-50 w-100-sm h-100" />
             <div className="flex-column container">
                 <h2>Get In Touch</h2>
                 <form action="#" className="w-100-sm mb-4">

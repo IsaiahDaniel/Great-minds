@@ -17,8 +17,8 @@ const About = () => {
 
         <div className='flex-row flex-column-sm mt-5'>
 
-          <div className="mt-3 mr-5">
-            <img src={cardImgThree} style={{ width: "450px", height: "570px", objectFit: "cover" }} />
+          <div className="mt-3 mr-5" style={{ margin: "auto" }}>
+            <img src={cardImgThree} style={{ width: "390px", height: "570px", objectFit: "cover", margin: "auto" }} />
           </div>
 
           <div>
@@ -62,11 +62,11 @@ const About = () => {
             Great Minds Literacy Readers organizes a yearly   vocabulary bee and held her 1st Edition of vocabulary bee in 2018 with the Theme: Words Changes the World, 2nd Edition in 2019 Theme: Win with Words, 3rd Edition in 2020 Voice of the Voiceless Abuja with the Theme: Power of Words and 4th Edition Voice of the Voiceless Ondo state July, 2021 and Voiced and Voiceless Vocabulary Bee Abuja 2021 Theme: Shine with Words.
           </p>
 
-          <p>
+          <div>
             <h3>Mission:</h3> <br />
             As a child advocate centre, our aim is to foster love for reading by providing developmental books for children and exposing the benefits of reading to as many people as possible through result based strategies for quality and sound learning.
             We desire to create a new operating system and instill values of Character, Responsibility, Excellence, Empathy and Discipline [CREED].
-          </p>
+          </div>
 
           <div className="text-right">
             <h3>With love.</h3> <br />
