@@ -204,6 +204,11 @@ const GlobalStyles = createGlobalStyle`
         background-color: #222;
     }
 
+    /* .w-100 {
+        width: 100vw;
+    } */
+
+
     @media(max-width: 900px){
 
         .image-sm {

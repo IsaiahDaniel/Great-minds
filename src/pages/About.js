@@ -9,7 +9,7 @@ import cardImgThree from "../assets/ceo.jpeg";
 const About = () => {
   return (
     <>
-      <div className='container text-center mt-5'>
+      <div className='container text-center mt-5' style={{ backgroundColor: "pink" }}>
         <h2>Quality, that makes a difference</h2>
         <p className="lead mb-5">
           We have made quality our habit. It’s not something that we just strive for – we live by this principle every day.
@@ -19,13 +19,13 @@ const About = () => {
             <img src={cardImgThree} height="500" className="mr-3 mb-3" /> 
         </div>
 
-        <div className='flex-row flex-column-sm mt-5 mr-5'>
+        <div className='flex-row flex-column-sm mt-5 mr-5' style={{ backgroundColor: "yellow" }}>
 
-          <div className="mt-3 mr-5" style={{ margin: "auto" }}>
+          <div className="mt-3 mr-5 w-100">
             <img src={cardImgThree} style={{ width: "460px", height: "570px", objectFit: "cover", margin: "auto" }} class="image-sm" />
           </div>
 
-          <div class="ml-5">
+          <div className="w-100" style={{ backgroundColor: "red" }}>
             <h1 className="md-heading text-left">
               Mrs Olamibo D. Balogun
             </h1>
@@ -47,6 +47,7 @@ const About = () => {
               Aside reading, she derives joy in counselling young girls and women. She is also a lover of God.
             </p>
             <br />
+
           </div>
 
 
