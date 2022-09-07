@@ -34,7 +34,7 @@ const Insights = () => {
         <a href="https://www.instagram.com/p/ChxkCd8jG6c/" target="_blank" rel="noreferrer">
           <img src={cardImgTwo} height="500" className="mr-3" alt="instagram-three" data-aos="fade-up" /> 
           <Paragraph>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, perspiciatis.
+          Teaching your children Self defense is important in this Era where sexual abuse, kidnapping is rampant..
           </Paragraph>
         </a>
       </div>
