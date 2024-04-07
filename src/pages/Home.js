@@ -18,7 +18,7 @@ const Home = () => {
                     <div>
                         <h3 className='lg-heading text-lg-sm text-center-sm'>Lets Grow together</h3>
                         <p className="text-center-sm">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla laboriosam, Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, alias? aliquam sunt delectus quidem qui animi?
+                        As a child advocate centre, our aim is to foster love for reading by providing developmental books for children and exposing the benefits of reading to as many people as possible through result based strategies for quality and sound learning.
                         </p>
                         <br />
                         <div className="text-center-sm">
