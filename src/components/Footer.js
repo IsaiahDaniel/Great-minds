@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 // import Button from './Button';
-import { BsInstagram } from 'react-icons/bs'
+import { BsInstagram, BsFacebook, BsYoutube } from 'react-icons/bs'
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="container grid-3">
             <div>
               <h3>Address</h3>
-              <p>3721 Single Street Quincy, MA 02169</p>
+              <p>Trademore avenue trademore estate along von garden estate off airport road, Lugbe FCT Abuja</p>
             </div>
 
             {/* <div>
@@ -25,7 +25,7 @@ const Footer = () => {
 
             <div>
               <h3>Contacts</h3>
-              <p>+234567392021</p>
+              <p>+234 806 235 9404</p>
               <p>info@brilliantminds.com</p>
             </div>
 
@@ -36,8 +36,23 @@ const Footer = () => {
               rel="noreferrer"
             >
               <h3>Socials</h3>
+
               <br />
-              <BsInstagram size="20" />
+
+              
+                <a href='https://www.instagram.com/greatmindsliteracyreaders?igsh=MXQ3OGIzeW5tOXNhdQ==' target='_blank' style={{ marginRight: 10 }}>
+                  <BsInstagram size="20" color='#fff' />
+                </a>
+                <a href='https://www.facebook.com/greatminds.literacyreaders.1?mibextid=ZbWKwL' target='_blank' style={{ marginRight: 10 }}>
+                  <BsFacebook size="20" color='#fff' />
+                </a>
+                <a href='https://youtube.com/@greatmindsliteracyreaders3977?si=xjjMNkP54mIg4Ouw' target='_blank' style={{ marginRight: 10 }}>
+                  <BsYoutube size="20" color='#fff' />
+                </a>
+
+                {/*   */}
+              
+
             </a>
 
             {/* <div>
